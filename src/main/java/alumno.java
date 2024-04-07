@@ -1,4 +1,4 @@
-package com.iesVal.DaydosDB;
+
 
 public class alumno {
 int edad;

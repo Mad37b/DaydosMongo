@@ -1,3 +1,11 @@
+import javax.swing.text.Document;
+
+import org.bson.conversions.Bson;
+
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
 
 public class conexion {
 
@@ -15,9 +23,9 @@ public class conexion {
         public Document findFilm (String filmName) {
         	MongoClient conn =this.getConnection();
         	MongoDatabase database = conn.getDatabase("sample_mflix");
-            MongoCollection<Document> collection = database.getCollection("movies");
+            MongoCollection<org.bson.Document> collection = database.getCollection("movies");
             Bson equalComp=eq("title",filmName);
-            Document doc = collection.find(equalComp).first();
+            org.bson.Document doc = collection.find(equalComp).first();
             if (doc != null) {
                 System.out.println(doc.toJson());
                 
