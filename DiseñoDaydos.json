@@ -1,0 +1,54 @@
+
+
+{
+	"instituto": {
+		"Nombre": [
+			"IES Val do asmas",
+			"IES Lamas das Quendas",
+			"IES Rio Cabe",
+			"IES DAVIÑA REY"
+		],
+		"Municipios": [
+			"Lugo",
+			"Chantada",
+			"Monforte de lemos"
+		],
+		"Direccion": [
+			"Av. Monforte, s/n, 27500, Chantada (Lugo)",
+			"C/ San Pedro, s/n, 27400, Monforte De Lemos (Lugo)",
+			"C/ Dr. Casares, 63-67, 27400, Monforte De Lemos (Lugo)",
+			"C/Uxío Novoneyra s/n, 27500, Chantada (Lugo)"
+		],
+		"Matriculacion": [
+			"ESO",
+			"Bachiller",
+			"FP"
+		]
+	},
+	"Grupo": {
+		"Curso": [
+			"4ºA",
+			"1ºB BAC"
+		],
+		"Matriculacion": [
+			"ESO",
+			"Bachiller",
+			"FP"
+		],
+		"Nombre": [
+			"Sofia",
+			"Andrea",
+			"Jaime",
+			"Sandro",
+			"Julia"
+		],
+		"numero Pedido": [
+			"A001",
+			"A002",
+			"A003",
+			"A004"
+			,
+			"A005"
+		]
+	}
+}

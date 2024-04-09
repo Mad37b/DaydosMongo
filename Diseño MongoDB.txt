@@ -1,0 +1,15 @@
+09/04/2024
+
+Seleccionar dos entindades relacionadas ( 2º semana )
+
+ Grupo / Instituto
+
+ Modelo Entidad relacional 
+ 
+ StarUML - Programa -Diagrama de clase
+
+ Modelo NoSQL
+
+ json 
+
+ identificar  4 Caso de uso ( )
